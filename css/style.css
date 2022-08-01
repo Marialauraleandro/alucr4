@@ -1,0 +1,252 @@
+*{
+	margin: 4px;
+	padding: 0;
+	}
+.container-grid1 a{
+	text-decoration: none;
+	color: white;
+	font-size: 19px;
+	font-family: "FuturaStd-CondensedBold";
+}
+.item1{grid-area: img src="img/logo_menu_de_navegación.png";}
+.item2{grid-area: Inicio;}
+.item3{grid-area: Nosotros;}
+.item4{grid-area: Productos;}
+.item5{grid-area: Contacto;}
+
+.container-grid1{
+	display: grid;
+	grid-template-areas: 'img Inicio Nosotros Productos Contacto';
+	padding: 10px;
+	align-items: center;
+}
+.item1 img{
+	width: 20%;
+}
+.item6{
+	width: 20px;
+}
+.imagen1 img{
+	width: 50%;
+	margin: 0 auto;
+	margin-top: 150px;
+	display: block;
+}
+@font-face {
+	font-family: "FuturaStd-CondensedBold";
+	src: url("../fonts/FuturaStd-CondensedBold.otf") format("truetype");
+}
+.titulo{grid-area: Productos_y_Servicios;}
+.servicio1{grid-area: Sublimación;}
+.productos1{grid-area: img;}
+.productos2{grid-area: img2;}
+.servicio2{grid-area: Vinil_Textil;}
+.servicio3{grid-area: Transfer;}
+.prodcutos3{grid-area: img3;}
+.producto4{grid-area: img4;}
+.servicio4{grid-area: Stiker;}
+
+.container-grid2{
+	display: grid;
+	grid-template-areas: 'Productos_y_Servicios Productos_y_Servicios'
+						 'Sublimación			img'
+						 'img2					Vinil_Textil'
+						 'Transfer				img3'
+						 'img4					Stiker';
+	grid-gap: 10px;
+	padding: 10px;
+	
+}
+.servicio1,.servicio3{
+	text-align: right;
+}
+.container-grid2{
+	color: white;
+	font-family: "FuturaStd-CondensedBold";
+}
+.container-grid2 ul li{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	align-items: left;
+}
+.titulo{
+	font-size: 45px;
+	color: #8A1821;
+}
+.servicio2,.servicio3,.servicio4,.servicio1{
+	font-size: 60px;
+	margin-top: 15%
+} 
+.iconos{
+	margin-top: 10%;
+}
+.iconos a img{
+	width: 30px;
+}
+.titulo_we{grid-area: nosotros;}
+.somos{grid-area: p ;}
+.logoalu{grid-area: img6;}
+
+.container-grid3{
+	display: grid;
+	grid-template-areas: 'nosotros img6'
+						 'p        img6';
+	grid-gap: 5%;
+	padding: 90px;
+	margin-top: 80px;
+}
+.titulo_we h1{
+	font-size: 70px;
+	color: #8A1821;
+	font-family: "FuturaStd-CondensedBold";
+}
+.somos p{
+	font-size: 20px;
+	font-family: "FuturaStd-CondensedBold";
+}
+.logoalu img{
+	margin-right: 250px;
+	margin-top: 65px;
+	width: 60%;
+}
+.formulario{
+	margin: 0 auto;
+	width: 400px;
+	margin-top: 50px;
+	padding: 15px;
+	background-color: #EFB94D;
+	border-radius: 6px;
+	font-family: "FuturaStd-CondensedBold";
+	border: 1px solid #C17C0E;
+
+}
+.formulario form{
+	background-color: #EFB94D;
+	margin-bottom: 35px;
+	padding: 5px;
+}
+h5{
+	background-color: #EFB94D;
+	padding: 6px;
+}
+button{
+	width: 350px;
+}
+
+.logo{grid-area: img1;}
+.ubicación{grid-area: img2;}
+.redes{grid-area: img3;}
+
+.container-grid4{
+	display: grid;
+	grid-template-areas: 
+						 'img1        img2        img3';
+	grid-gap: 5%;
+	padding: 20px;
+	place-items: center;
+}
+.contactanos h1{
+	text-align: center;
+	font-family: "FuturaStd-CondensedBold";
+	color: #8A1821;
+	font-size: 60px;
+	margin-top: 20px;
+}
+.ubicación img{
+	width: 300px;
+	margin-top: 20px;
+}
+.item11 img{
+	width: 25%;
+}
+.item21 a, .item31 a, .item41 a, .item51 a{
+	color: #8A1821;
+	font-size: 20px;
+	margin-top: 20px;
+}
+.box{
+	width: 100%;
+	height: 5px;
+	background-color: #8A1821;
+}
+.box2{
+	width: 100%;
+	height: 5px;
+	background-color: #8A1821;
+}
+.item22 a, .item32 a, .item42 a, .item52 a{
+	color: white;
+	font-size: 20px;
+	margin-top: 20px;
+}
+.item12 img{
+	width: 30%;
+	margin-left: 20px;
+}
+@media only screen and (max-width: 600px) {
+	*{
+	background-color: lightblue;
+	}
+}
+
+.camisa{grid-area: img1;}
+.pijama{grid-area: img2;}
+.botella{grid-area: img3;}
+.taza{grid-area: img4;}
+
+.container-grid5{
+	display: grid;
+	grid-template-areas: 'img1 img2 img3 img4';
+	grid-gap: 10%;
+	margin-top: 5%;
+	place-items: center;
+}
+
+.almohadones{grid-area: img5;}
+.personalizar{grid-area: img6;}
+.jarras{grid-area: img7;}
+
+.container-grid6{
+	display: grid;
+	grid-template-areas: 'img5 img6 img7';
+	grid-gap: 10%;
+	place-items: center;
+}
+.casmisas{grid-area: img1;}
+.gorras{grid-area: img2;}
+.sueteres{grid-area: img3;}
+
+.container-grid7{
+	display: grid;
+	grid-template-areas: 'img1 img2 img3';
+	grid-gap: 10%;
+	margin-top: 5%;
+	place-items: center;
+}
+.personalizar a{
+	display: flex;
+	justify-content: center;
+}
+.casmisast{grid-area: img1;}
+.gorras{grid-area: img2;}
+.sueteres{grid-area: img3;}
+
+.container-grid8{
+	display: grid;
+	grid-template-areas: 'img1 img2 img3';
+	grid-gap: 10%;
+	margin-top: 5%;
+	place-items: center;
+}
+.tazast{grid-area: img1;}
+.jarrast{grid-area: img2;}
+.botellast{grid-area: img3;}
+
+.container-grid9{
+	display: grid;
+	grid-template-areas: 'img1 img2 img3';
+	grid-gap: 10%;
+	margin-top: 5%;
+	place-items: center;
+}

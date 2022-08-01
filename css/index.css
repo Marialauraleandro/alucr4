@@ -1,0 +1,8 @@
+*{
+	background: #8A1821;
+}
+@media only screen and (max-width: 600px) {
+	*{
+	background-color: lightblue;
+	}
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
